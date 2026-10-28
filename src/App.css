@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dark {
+  background: #222;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #4338ca;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dark input {
+  background: #333;
+  color: white;
+  border: 1px solid white;
+}
+
+.result {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow-wrap: anywhere;
+}
+
+label {
+  font-weight: bold;
+}
